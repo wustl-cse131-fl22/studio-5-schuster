@@ -116,6 +116,11 @@ public class Methods {
 
 		return values;
 	}
+	/**
+	 * Return the mean of a provided array
+	 * @param values
+	 * @return
+	 */
 	public static double arrayMean(int[] values)
 	{	
 		return arraySum(values)/(double)(values.length);
